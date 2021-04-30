@@ -72,9 +72,7 @@ a.navbar-item.is-active {
         max-width: 20vmax;
         margin: auto;
 
-        img {
-            border: 0.25rem dotted black;
-        }
+
     }
 
     a {
@@ -108,6 +106,7 @@ a.navbar-item.is-active {
 #blog {
     .hero-body {
         padding: 3rem 0.25rem 1rem 0.25rem;
+        flex-grow:0;
     }
 
     .container {
